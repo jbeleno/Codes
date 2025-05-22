@@ -4,8 +4,8 @@ This directory contains scripts for image data augmentation using techniques suc
 
 ## Scripts
 - **Flipping.py**: Performs vertical and horizontal flipping of images.
-- **Rotacion.py**: Rotates images in different directions (90°, -90°, 180°).
-- **Perspectiva.py**: Applies perspective transformations to images.
+- **Rotate.py**: Rotates images in different directions (90°, -90°, 180°).
+- **Perspective.py**: Applies perspective transformations to images.
 
 ## Requirements
 - Python 3.x
