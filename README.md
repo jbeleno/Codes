@@ -1,43 +1,43 @@
-# Proyecto de Procesamiento y Aumentación de Datos
+# Data Processing and Augmentation Project
 
-Este repositorio contiene scripts en Python para el procesamiento, aumentación y división de datos, útiles en tareas de visión por computadora y aprendizaje automático.
+This repository contains Python scripts for data processing, augmentation, and splitting, useful for computer vision and machine learning tasks.
 
-## Estructura del Proyecto
+## Project Structure
 
-### 1. Carpeta: `Aumentamiento de datos`
+### 1. Folder: `Data Augmentation`
 
-Contiene scripts para realizar diferentes técnicas de aumentación de imágenes:
+Contains scripts to perform different image augmentation techniques:
 
-- **Rotacion.py**  
-  Realiza rotaciones sobre imágenes para aumentar la variedad de datos de entrenamiento.
+- **Rotate.py**  
+  Performs rotations on images to increase the variety of training data.
 
 - **Flipping.py**  
-  Aplica volteos horizontales y/o verticales a las imágenes.
+  Applies horizontal and/or vertical flips to images.
 
-- **Perspectiva.py**  
-  Aplica transformaciones de perspectiva para simular diferentes ángulos de visión.
+- **Perspective.py**  
+  Applies perspective transformations to simulate different viewing angles.
 
-### 2. Carpeta: `Codigo de pruebas`
+### 2. Folder: `Model Testing`
 
-- **Pruebas.py**  
-  Script dedicado a realizar pruebas y validaciones de las funciones implementadas en los módulos de aumentación y procesamiento de datos.
+- **Test.py**  
+  Script dedicated to testing and validating the functions implemented in the augmentation and data processing modules.
 
-### 3. Carpeta: `Data Splitting`
+### 3. Folder: `Data Splitting`
 
 - **splitting.py**  
-  Script para dividir conjuntos de datos en subconjuntos de entrenamiento, validación y prueba, facilitando la organización y evaluación de modelos.
+  Script to split datasets into training, validation, and test subsets, facilitating model organization and evaluation.
 
 ---
 
-## Requisitos
+## Requirements
 
 - Python 3.x
-- Bibliotecas necesarias: (agrega aquí las bibliotecas que usas, por ejemplo, OpenCV, NumPy, etc.)
+- Required libraries: (add here the libraries you use, e.g., OpenCV, NumPy, etc.)
 
-## Uso
+## Usage
 
-1. Clona este repositorio.
-2. Instala los requisitos necesarios.
-3. Ejecuta los scripts según la tarea que desees realizar.
+1. Clone this repository.
+2. Install the required dependencies.
+3. Run the scripts according to the task you want to perform.
 
 ---
