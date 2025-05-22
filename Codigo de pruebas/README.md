@@ -1,18 +1,18 @@
-# Código de pruebas
+# Model Testing
 
-Este directorio contiene scripts para pruebas de modelos de clasificación de imágenes usando TensorFlow y otras librerías.
+This directory contains scripts for testing image classification models using TensorFlow and other libraries.
 
-## Script principal
-- **Pruebas.py**: Realiza la carga de un modelo, preprocesamiento de imágenes y predicción de clases.
+## Main Script
+- **Pruebas.py**: Loads a model, preprocesses images, and predicts classes.
 
-## Requisitos
+## Requirements
 - Python 3.x
 - tensorflow
 - numpy
 - opencv-python
 - matplotlib
 
-Instala las dependencias con:
+Install the dependencies with:
 ```bash
 pip install -r requirements.txt
 ```
