@@ -1,16 +1,18 @@
-# Data Splitting
+# Model Testing
 
-This directory contains scripts to split image datasets into training and validation sets.
+This directory contains scripts for testing image classification models using TensorFlow and other libraries.
 
 ## Main Script
-- **splitting.py**: Splits images into training and validation folders using `train_test_split` from scikit-learn.
+- **Test.py**: Loads a model, preprocesses images, and predicts classes.
 
 ## Requirements
 - Python 3.x
-- scikit-learn
+- tensorflow
+- numpy
+- opencv-python
+- matplotlib
 
 Install the dependencies with:
 ```bash
 pip install -r requirements.txt
-```
 ```

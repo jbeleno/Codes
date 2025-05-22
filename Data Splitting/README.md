@@ -1,15 +1,16 @@
 # Data Splitting
 
-Este directorio contiene scripts para dividir conjuntos de datos de imágenes en conjuntos de entrenamiento y validación.
+This directory contains scripts to split image datasets into training and validation sets.
 
-## Script principal
-- **splitting.py**: Divide las imágenes en carpetas de entrenamiento y validación usando `train_test_split` de scikit-learn.
+## Main Script
+- **splitting.py**: Splits images into training and validation folders using `train_test_split` from scikit-learn.
 
-## Requisitos
+## Requirements
 - Python 3.x
 - scikit-learn
 
-Instala las dependencias con:
+Install the dependencies with:
 ```bash
 pip install -r requirements.txt
+```
 ```
