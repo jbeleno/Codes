@@ -9,14 +9,14 @@ import cv2  # For loading and preprocessing images / Para cargar y preprocesar i
 import matplotlib.pyplot as plt
 import os
 
-# Path to the saved model / Ruta del modelo guardado
-model_path = r'/content/drive/MyDrive/final perspectiva/modelos /efficientdet_final_model_512x512_30_64.h5'
+# Path to the saved model
+model_path = 'PATH/TO/YOUR/MODEL.h5'  # <-- Change this to your saved model path
 
 # Load the model / Cargar el modelo
 model = tf.keras.models.load_model(model_path)
 
-# Get the class names / Obtener los nombres de las clases
-class_names = sorted(os.listdir(r'/content/drive/MyDrive/final perspectiva/train'))
+# Get the class names
+class_names = sorted(os.listdir('PATH/TO/YOUR/TRAIN/FOLDER'))  # <-- Change this to your train folder path
 print(f"Classes: {class_names}")  # Clases: {class_names}
 
 # Function to load and preprocess an image / Función para cargar y preprocesar una imagen
@@ -31,8 +31,8 @@ def preprocess_image(image_path, img_size=(512, 512)):
     img = tf.keras.applications.resnet50.preprocess_input(img)
     return img
 
-# Path to the test image / Ruta de la imagen de prueba
-test_image_path = r'/content/drive/MyDrive/final perspectiva/Moniliafase2(2).jpg'
+# Path to the test image
+test_image_path = 'PATH/TO/YOUR/TEST/IMAGE.jpg'  # <-- Change this to your test image path
 
 # Preprocess the test image / Preprocesar la imagen de prueba
 image = preprocess_image(test_image_path)

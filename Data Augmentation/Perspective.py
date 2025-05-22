@@ -10,10 +10,10 @@ import numpy as np
 
 # Input folder where the images are located
 # Carpeta de entrada donde están las imágenes
-input_folder = r'C:\Users\jesus\OneDrive\Desktop\cosas importantes\aumentamiento de datos\test\Monilia-fase-3'
+input_folder = 'PATH/TO/YOUR/INPUT/FOLDER'  # <-- Change this to your input images folder path
 # Output folder where the transformed images will be saved
 # Carpeta de salida donde se guardarán las imágenes transformadas
-output_folder = r'C:\Users\jesus\OneDrive\Desktop\cosas importantes\aumentamiento de datos\clases perspectiva\Monilia-fase-3'
+output_folder = 'PATH/TO/YOUR/OUTPUT/FOLDER'  # <-- Change this to your output folder path
 
 # Create the output folder if it does not exist
 # Crea la carpeta de salida si no existe

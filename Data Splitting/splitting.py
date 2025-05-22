@@ -9,12 +9,12 @@ from sklearn.model_selection import train_test_split
 
 # Base directory where the class folders are located
 # Directorio base donde están las carpetas de clases
-base_dir = r'C:\Users\jesus\OneDrive\Desktop\cosas importantes\data sets finales\sin separar\clases perspectiva'
+base_dir = 'PATH/TO/YOUR/CLASSES/FOLDER'  # <-- Change this to your classes folder path
 
 # Output directories for train and validation sets
 # Directorios de salida para los conjuntos de entrenamiento y validación
-train_dir = r'C:\Users\jesus\OneDrive\Desktop\cosas importantes\data sets finales\separados final\final perspectiva\train'
-val_dir = r'C:\Users\jesus\OneDrive\Desktop\cosas importantes\data sets finales\separados final\final perspectiva\valid'
+train_dir = 'PATH/TO/YOUR/TRAIN/FOLDER'  # <-- Change this to your train output folder path
+val_dir = 'PATH/TO/YOUR/VALIDATION/FOLDER'  # <-- Change this to your validation output folder path
 
 # Create the train and val folders if they do not exist
 # Crear las carpetas de train y val si no existen
