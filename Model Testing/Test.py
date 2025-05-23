@@ -1,7 +1,8 @@
-# Name: Model Testing Script
-# Description: This script loads a trained image classification model, preprocesses a test image, makes a prediction, and displays the results.
-# Nombre: Script de Pruebas de Modelo
-# Explicación: Este script carga un modelo de clasificación de imágenes entrenado, preprocesa una imagen de prueba, realiza una predicción y muestra los resultados.
+"""
+Script to load a trained image classification model, preprocess a test image, make a prediction, and display the results.
+
+Dependencies: TensorFlow, NumPy, OpenCV, Matplotlib, os
+"""
 
 import tensorflow as tf
 import numpy as np
@@ -21,6 +22,14 @@ print(f"Classes: {class_names}")  # Clases: {class_names}
 
 # Function to load and preprocess an image / Función para cargar y preprocesar una imagen
 def preprocess_image(image_path, img_size=(512, 512)):
+    """
+    Loads and preprocesses an image for ResNet50 model prediction.
+    Args:
+        image_path (str): Path to the image file.
+        img_size (tuple): Target size for resizing (width, height).
+    Returns:
+        np.ndarray: Preprocessed image ready for model prediction.
+    """
     # Load the image / Cargar la imagen
     img = cv2.imread(image_path)
     # Resize the image to the expected size / Redimensionar la imagen al tamaño esperado

@@ -1,7 +1,8 @@
-# Name: Image Rotation
-# Description: This script rotates images in a given folder in three directions: 90° clockwise, 90° counter-clockwise, and 180° upside down, generating new rotated images.
-# Nombre: Rotación de imágenes
-# Explicación: Este script rota imágenes en una carpeta dada en tres direcciones: 90° en sentido horario, 90° en sentido antihorario y 180° al revés, generando nuevas imágenes rotadas.
+"""
+Script to rotate all images in a specified folder by 90° clockwise, 90° counterclockwise, and 180°, saving the results in an output directory.
+
+Dependencies: PIL, os
+"""
 
 import os
 from PIL import Image

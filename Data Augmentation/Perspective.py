@@ -1,7 +1,8 @@
-# Name: Image Perspective Transformation
-# Description: This script applies two types of perspective transformations to images in a given folder, generating new images with different perspectives.
-# Nombre: Transformación de perspectiva de imágenes
-# Explicación: Este script aplica dos tipos de transformaciones de perspectiva a imágenes en una carpeta dada, generando nuevas imágenes con diferentes perspectivas.
+"""
+Script to apply two types of perspective transformations to all images in a specified folder, saving the results in an output directory.
+
+Dependencies: PIL, OpenCV (cv2), numpy, os
+"""
 
 import os
 import cv2  # Import OpenCV / Importa OpenCV
@@ -20,6 +21,14 @@ output_folder = 'PATH/TO/YOUR/OUTPUT/FOLDER'  # <-- Change this to your output f
 os.makedirs(output_folder, exist_ok=True)
 
 def apply_perspective(image, version):
+    """
+    Applies a perspective transformation to a PIL image.
+    Args:
+        image (PIL.Image): The input image.
+        version (int): 1 for less pronounced, 2 for more pronounced transformation.
+    Returns:
+        PIL.Image: The transformed image.
+    """
     width, height = image.size
     src_points = np.array([[0, 0], [width, 0], [0, height], [width, height]], dtype='float32')
     

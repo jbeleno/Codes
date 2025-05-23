@@ -1,8 +1,8 @@
-# Name: Data Splitting Script
-# Description: This script splits image datasets into training and validation folders using scikit-learn's train_test_split.
-# Nombre: Script de Separación de Datos
-# Explicación: Este script separa conjuntos de imágenes en carpetas de entrenamiento y validación usando train_test_split de scikit-learn.
+"""
+Script to split image datasets into training and validation folders using scikit-learn's train_test_split.
 
+Dependencies: scikit-learn, os, shutil
+"""
 import os
 import shutil
 from sklearn.model_selection import train_test_split

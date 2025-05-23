@@ -1,7 +1,8 @@
-# Name: Image Flipping
-# Description: This script performs vertical and horizontal flipping of images in a given folder, generating new flipped images.
-# Nombre: Flipping de imágenes
-# Explicación: Este script realiza el volteo (flipping) vertical y horizontal de imágenes en una carpeta dada, generando nuevas imágenes volteadas.
+"""
+Script to perform vertical and horizontal flipping of all images in a specified folder, saving the results in an output directory.
+
+Dependencies: PIL, os
+"""
 
 import os
 from PIL import Image
